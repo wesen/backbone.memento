@@ -12,7 +12,10 @@ Backbone.Memento = (function(Backbone, _){
   // ----------------------------
   // Memento: the public API
   // ----------------------------
-  var Memento = function(structure, config){
+  /**
+   * @class Backbone.Memento
+   */
+  var Memento = function(structure, config) {
     this.version = "0.4.1a";
 
     config = _.extend({ignore: []}, config);
