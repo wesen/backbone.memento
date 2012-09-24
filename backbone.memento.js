@@ -6,6 +6,7 @@
 // Documentation and Full License Available at:
 // http://github.com/derickbailey/backbone.memento
 
+/** @class Backbone.Memento */
 Backbone.Memento = (function(Backbone, _){
   'use strict';
 
@@ -13,7 +14,7 @@ Backbone.Memento = (function(Backbone, _){
   // Memento: the public API
   // ----------------------------
   /**
-   * @class Backbone.Memento
+   * @constructor
    */
   var Memento = function(structure, config) {
     this.version = "0.4.1a";
