@@ -1,0 +1,29 @@
+{
+  "name": "backbone.memento",
+  "version": "0.4.1a",
+  "description": "A memento pattern implementation for Backbone.js",
+  "main": "backbone.memento.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derickbailey/backbone.memento.git"
+  },
+  "keywords": [
+    "backbone",
+    "memento",
+    "pattern",
+    "javascript"
+  ],
+  "author": "Derick Bailey, Muted Solutions, LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derickbailey/backbone.memento/issues"
+  },
+  "homepage": "https://github.com/derickbailey/backbone.memento#readme",
+  "dependencies": {
+    "backbone": "^1.4.0",
+    "underscore": "^1.9.1"
+  }
+}
